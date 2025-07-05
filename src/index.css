@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    /* position: absolute;
+    display: flex; */
+    font-size: 100px;
+   font-style: italic;
+   color: whitesmoke;
+   display: flex;
+    text-shadow: 20px 20px  15px black;
+    margin-top: 10px;
+    
+    
+}
+.sign{
+    position:relative;
+    left: 1230px;
+    bottom: 120px;
+}
+
+.background{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/031/716/260/non_2x/the-street-of-organic-food-markets-marketplace-stalls-selling-fruits-and-vegetables-ai-generative-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-attachment: scroll;
+   height: 150vh;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+.row{  
+    margin-left: 150px;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.container{
+margin-left:50p;
+margin-right:50px;
+margin-top: 0%;    
+    width:200%;
+}
+.signup{
+    margin: 100px;
+    margin-left: 100px;
+}
+.logo{
+    position: absolute;
+    right:700px;
+    top:15px;
+   padding: 0;
+   margin: 0;
+}
+/*.product {
+  background: linear-gradient(to right, #000000, #cec2a4); /* light yellow to orange gradient 
+  padding: 40px 0;
+  min-height: 100vh;
+  font-style: italic;
+}*/
+.card:hover{
+    transform: scale(1.05);
+    transition: all 1s ease-out;
+    box-shadow: 5px 5px gray;
+}
+.card{
+    border:none;
+}
+
+
+
+
+    
+
+
+
+   
+
+
