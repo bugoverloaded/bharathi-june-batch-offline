@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 export default function Product()
 {
     return(
-        <div class="product">
-        <div class="                                                                                                                                                                                                                                                                                                                                                                                                                  row" >
+        <div className="product">
+        <div class=" row">                                                                                                                                                                                                                                                                                                                                                                                                                  
              <div className="card col-2">
                     <img src="https://c8.alamy.com/comp/PRFTN4/bunch-of-fresh-ripe-banana-fruits-isolated-on-white-background-PRFTN4.jpg" alt="" />
                     <h1>Banana</h1>

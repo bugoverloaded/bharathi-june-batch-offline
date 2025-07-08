@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Product from "./components/Product";
 import Services from "./components/Services";
-import Signup from "./components/signup";
+import Signup from "./components/Signup";
 
 export default function App()
 {
