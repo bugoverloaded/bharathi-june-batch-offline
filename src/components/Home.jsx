@@ -1,29 +1,47 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default function Home(){
-    return(
+export default function Home() {
+  return (
+
+    <>
+      <div className="background" >
+
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid bg-white">
+            <a class="navbar-brand" href="#">
+              <img src="https://logosandtypes.com/wp-content/uploads/2020/11/Shopify.png" alt="Logo" width="120" height="120" class=" " />
+              <span id="title">Street Bazaar</span>
+            </a>
+          </div>
+        </nav>
+        <h2 id="title" ></h2>
+        <ul>
+          <Link to="/" class="ps-5 m-1 text-light text-decoration-none  fw-bold">Home</Link>
+          <Link to="/Product" class="ps-5 m-1 text-light text-decoration-none  fw-bold">Product</Link>
+           <Link to="/Contact" class=" ps-5 m-1 text-light text-decoration-none  fw-bold">Contact</Link>
+          <Link to="/Services" class="ps-5 m-1 text-light text-decoration-none fw-bold" >Services</Link>
+          <Link to="/Signup" class="ps-5 m-1 text-light">Sign Up</Link>
+        </ul>
+        
+      </div>
+      <div class="homefooter ">
+       <h6 class="text-decoration-underline fst-italic ">About Us</h6>
+        <span class="fw-lighter ">
+          bharathikannan@gmail.com <br />
+          contact no:6379301319
+          
+        </span>
+        <br />
+        <br />
+        <p>
+          &copy;right2025@.All rights are resreved.
+        </p>
 
 
-        <div className="background" >
-            
-         <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid bg-white">
-    <a class="navbar-brand" href="#">
-      <img src="https://logosandtypes.com/wp-content/uploads/2020/11/Shopify.png" alt="Logo" width="120" height="120" class=" "/>
-      <span id="title">Street Bazaar</span> 
-    </a>
-  </div>
-</nav>
-            <h2 id="title" ></h2>  
-            <ul>  
-                <Link to="/" class="ps-5 m-1 text-light text-decoration-none  fw-bold">Home</Link>   
-                <Link to="/Product" class="ps-5 m-1 text-light text-decoration-none  fw-bold">Product</Link>
-                <Link to="/Contact" class=" ps-5 m-1 text-light text-decoration-none  fw-bold">Contact</Link>     
-                <Link to="/Services" class="ps-5 m-1 text-light text-decoration-none fw-bold" >Services</Link>     
-                <Link to="/Signup" class="ps-5 m-1 text-light text-decoration-none fw-bold">Sign Up</Link>
-            </ul>
-               </div>   
-    
-    );
+       
+      </div>
+    </>
+
+  );
 }

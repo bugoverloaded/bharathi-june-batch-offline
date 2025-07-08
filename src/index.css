@@ -1,23 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#title{
+
+#title {
 
     font-size: 100px;
-   font-style: italic;
-   color: black;
-   display: flex;
-    text-shadow: 20px 20px  20px black;
+    font-style: italic;
+    color: black;
+    display: flex;
+    text-shadow: 20px 20px 20px black;
     margin-top: 10px;
     position: absolute;
     bottom: 2px;
     left: 120px;
-    
-    
-    
 }
-.background{
+
+.background {
     background-image: url('https://static.vecteezy.com/system/resources/previews/031/716/260/non_2x/the-street-of-organic-food-markets-marketplace-stalls-selling-fruits-and-vegetables-ai-generative-photo.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -25,77 +24,83 @@
     overflow: hidden;
     background-attachment: fixed;
     background-attachment: scroll;
-   height: 150vh;
-   width: 100%;
-   margin: 0;
-   padding: 0;
+    height: 300vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.background1{
+
+.background1 {
     background-image: url('https://static.vecteezy.com/system/resources/previews/031/716/260/non_2x/the-street-of-organic-food-markets-marketplace-stalls-selling-fruits-and-vegetables-ai-generative-photo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-   
+
     background-attachment: fixed;
     background-attachment: scroll;
-   height: 150vh;
-   width: 100%;
-   margin: 0;
-   padding: 0;
+    height: 150vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.row{  
+
+.row {
     margin-left: 150px;
-    padding-top:50px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
-.container{
-margin-left:50p;
-margin-right:50px;
-margin-top: 0%;    
-    width:200%;
+
+.container {
+    margin-left: 50p;
+    margin-right: 50px;
+    margin-top: 0%;
+    width: 200%;
 }
 
 .product {
-    
+
     position: absolute;
     position: fixed;
-  background: linear-gradient(to right, #000000, #cec2a4);
-  padding: 40px 0;
-  min-height: 100vh;
-  font-style: italic;
+    background: linear-gradient(to right, #000000, #cec2a4);
+    padding: 40px 0;
+    min-height: 100vh;
+    font-style: italic;
 }
-/*.card:hover{
+
+.card:hover{
     transform: scale(1.05);
     transition: all 1s ease-out;
     box-shadow: 5px 5px gray;
 }
 .card{
     border:none;
-}*/
-.container{
-    margin-top: 150px;
-    margin-right:75px;
-
-    
 }
-.card{
+.container {
+    margin-top: 150px;
+    margin-right: 75px;
+
+
+}
+.card1 {
     font-weight: bold;
     color: antiquewhite;
     font-style: italic;
     height: 400px;
     width: 600px;
-    border:none;
+    border: none;
     border-radius: 20px;
     background-image: url('https://static.vecteezy.com/system/resources/previews/031/716/260/non_2x/the-street-of-organic-food-markets-marketplace-stalls-selling-fruits-and-vegetables-ai-generative-photo.jpg');
 }
+.homefooter{
+    background-image: linear-gradient(white,rgb(66, 206, 206));
 
-
-
-    
-
-
-
-   
-
-
+    color: black;
+    margin-bottom: 0%;
+    text-align: center;
+}
+#carouselExampleDark{
+    position: absolute;
+    left: 300px;
+    top: 500px;
+}
